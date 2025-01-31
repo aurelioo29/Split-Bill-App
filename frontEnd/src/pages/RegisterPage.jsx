@@ -1,10 +1,11 @@
-import Background from "../components/Background";
+import AuthContainer from "../components/AuthContainer";
+import AuthForm from "../components/AuthForm";
 
 const RegisterPage = () => {
   return (
-    <Background>
-      <div></div>
-    </Background>
+    <AuthContainer>
+      <AuthForm formType="register" />
+    </AuthContainer>
   );
 };
 
